@@ -108,30 +108,65 @@ class MerkleTree {
             return buildTreeRecursive(parentNodes);
         }
     public:
-    MerkleTree(const std::vector<std::string>& transactions){
-        if (transactions.empty()){
-            root = nullptr;
-            return
+        MerkleTree(const std::vector<std::string>& transactions){
+            if (transactions.empty()){
+                root = nullptr;
+                return
+            }
+
+            std::vector<MerkleNode*> leafNodes;
+            for (const auto& tx:transactions) {
+                leafNodes.push_back(new MerkleNode(tx));
+            }
+            root = buildTreeRecursive(leafNodes);
         }
 
-        std::vector<MerkleNode*> leafNodes;
-        for (const auto& tx:transactions) {
-            leafNodes.push_back(new MerkleNode(tx));
+        /**
+         * Returns the root hash of the Merkle tree.
+         * If the tree is empty, returns an empty string.
+         * @return The root hash of the Merkle tree.
+         */
+        std::string getRootHash() const {
+            if (root == nullptr){
+                return "";
+            }
+            return root->hash;
         }
-        root = buildTreeRecursive(leafNodes);
-    }
 
-/**
- * Returns the root hash of the Merkle tree.
- * If the tree is empty, returns an empty string.
- * @return The root hash of the Merkle tree.
- */
-    std::string getRootHash() const {
-        if (root == nullptr){
-            return "";
+        void printTree(MerkleNode* node, int depth=0) const {
+            if (node==nullptr) return;
+            for (int i=0, i<depth, i++){
+                std::cout << "  ";
+            }
+            std::cout << "Hash: " << node->hash.substr(0, 16) << "..." std:endl;
+
+            if (node->left !=nullptr || node->right !=nullptr ){
+                printTree(node->left, depth+1);
+                printTree(node->right, depth+1);
+            }
         }
-        return root->hash;
-    }
 
-    
+        void printTree() const {
+            std::cout << "\n=== Merke Tree Structure" << std::endl;
+            printTree(root);
+            std::cout << "========================\n" << std::endl;
+        }
+
+        bool verifyTransaction(const std::string& transaction) const {
+            std::string txHash = sha256(transaction);
+            return searchHash(root, txHash);
+        }
+
+    private:
+        bool searchHash(MerkleNode* node, const std::string& targetHash) const {
+            if (node==nullptr) return false;
+
+            if (node->hash == targetHash) return true;
+            return searchHash(node->left, targetHash) || searchHash(node->right, targetHash);
+        }
+
+    public:
+        ~MerkleTree(){
+            delete root;
+        }
 };
