@@ -25,21 +25,35 @@ The main function I built into these are function that build the tree from data,
 
 */
 
-
+#include <iostream>
 #include <string>
 #include <vector>
 #include <sstream>
 #include <iomanip>
-#include <openssl/sha.h>
 
 
-std::string sha256(const std::string& input){
-    unsigned char hash[SHA256_DIGEST_LENGTH];
+std::string sha256(const std::string& input) {
+    // 1. Create array to hold the hash result (32 bytes for SHA-256)
+    unsigned char hash[SHA256_DIGEST_LENGTH];  // DIGEST_LENGTH = 32
+    
+    // 2. Calculate the SHA-256 hash of the input string
+    //    Takes: pointer to input data, length of input, where to store result
     SHA256((unsigned char*)input.c_str(), input.length(), hash);
-    std::stringstream ss;
-    for(int i=0, i<SHA256_DIGEST_LENGTH; i++) {
-        ss << std::hex << std:setw(2) << std::setfill("0") << (int)hash[i];
+    
+    // 3. Now 'hash' contains 32 bytes like: [0xA3, 0xF5, 0x2B, ...]
+    //    We need to convert this to a readable string
+    
+    std::stringstream ss;  // String builder
+    
+    // 4. Loop through each byte and convert to hexadecimal
+    for(int i = 0; i < SHA256_DIGEST_LENGTH; i++) {
+        ss << std::hex                    // Use hexadecimal format
+           << std::setw(2)                // Each byte = 2 hex digits
+           << std::setfill('0')           // Pad with 0 if needed
+           << (int)hash[i];               // Convert byte to int
     }
+    
+    // 5. Return the hex string like "a3f52b..."
     return ss.str();
 }
 
@@ -51,15 +65,73 @@ class MerkleNode {
         MerkleNode* right;
 
         MerkleNode(const std::string& data) {
-            // what should this constructor do with the data ?
+            this->hash =sha256(data);
+            this->left = nullptr;
+            this->right = nullptr;
         };
 
         MerkleNode(MerkleNode* l, MerkleNode* r) {
-            // What should this constructor do with the two child nodes ?
+            this->left = l;
+            this->right = r;
+            std::string combined = l->hash + r->hash;
+            this->hash = sha256(combined);
         };
 
         // Destructor
-        ~MerkleNode() {
-            // Implementation here
+        ~MerkleNode(){
+            delete left;
+            delete right;
         }
+};
+
+class MerkleTree {
+    private:
+        MerkleNode* root;
+
+        MerkleNode* buildTreeRecursive(std::vector<MerkleNode*>& nodes) {
+            //base case
+            if (nodes.size() == 1){
+                return nodes[0]; 
+            }
+            std::vector<MerkleNode*> parentNodes;
+            for (size_t i=0; i<nodes.size();i+=2) {
+                MerkleNode* left = nodes[i];
+                MerkleNode* right;
+                if (i+1 == nodes.size()){
+                    right = nodes[i];
+                } else {
+                    right = nodes[i+1];
+                }
+                MerkleNode* parent = new MerkleNode(left, right);
+                parentNodes.push_back(parent);
+            }
+            return buildTreeRecursive(parentNodes);
+        }
+    public:
+    MerkleTree(const std::vector<std::string>& transactions){
+        if (transactions.empty()){
+            root = nullptr;
+            return
+        }
+
+        std::vector<MerkleNode*> leafNodes;
+        for (const auto& tx:transactions) {
+            leafNodes.push_back(new MerkleNode(tx));
+        }
+        root = buildTreeRecursive(leafNodes);
+    }
+
+/**
+ * Returns the root hash of the Merkle tree.
+ * If the tree is empty, returns an empty string.
+ * @return The root hash of the Merkle tree.
+ */
+    std::string getRootHash() const {
+        if (root == nullptr){
+            return "";
+        }
+        return root->hash;
+    }
+
+    
 };
