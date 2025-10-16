@@ -224,6 +224,20 @@ int main() {
     std::cout << "\nMerkle Root: " << tree2.getRootHash() << std::endl;
     
     tree2.printTree();
+
+
+    std::cout << "\nTEST 3: Building Merkle Tree with 1 transaction" << std::endl;
+    std::cout << "------------------------------------------------" << std::endl;
+    
+    std::vector<std::string> transactions3 = {
+        "Single Transaction"
+    };
+    
+    MerkleTree tree3(transactions3);
+    std::cout << "Transaction: " << transactions3[0] << std::endl;
+    std::cout << "Merkle Root: " << tree3.getRootHash() << std::endl;
+    
+    tree3.printTree();
     
     return 0;
 }
