@@ -274,6 +274,21 @@ int main() {
 
 
 
+    // ========== TEST 6: Data Integrity ==========
+    std::cout << "\nTEST 6: Data Integrity Check" << std::endl;
+    std::cout << "-----------------------------" << std::endl;
+    
+    std::vector<std::string> originalData = {
+        "Transaction 1",
+        "Transaction 2",
+        "Transaction 3",
+        "Transaction 4"
+    };
+    
+    MerkleTree originalTree(originalData);
+    std::string originalRoot = originalTree.getRootHash();
+    
+    std::cout << "Original Merkle Root: " << originalRoot.substr(0, 32) << "..." << std::endl;
     
     return 0;
 }
