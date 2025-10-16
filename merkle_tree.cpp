@@ -205,6 +205,25 @@ int main() {
     std::cout << "Build Time: " << duration.count() << " microseconds" << std::endl;
     
     tree1.printTree();
+
+    // ========== TEST 2: Odd Number of Transactions ==========
+    std::cout << "\nTEST 2: Building Merkle Tree with 3 transactions (odd number)" << std::endl;
+    std::cout << "--------------------------------------------------------------" << std::endl;
+    
+    std::vector<std::string> transactions2 = {
+        "Transaction A",
+        "Transaction B",
+        "Transaction C"
+    };
+    
+    MerkleTree tree2(transactions2);
+    std::cout << "Transactions:" << std::endl;
+    for (size_t i = 0; i < transactions2.size(); i++) {
+        std::cout << "  " << i+1 << ". " << transactions2[i] << std::endl;
+    }
+    std::cout << "\nMerkle Root: " << tree2.getRootHash() << std::endl;
+    
+    tree2.printTree();
     
     return 0;
 }
