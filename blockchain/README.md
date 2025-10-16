@@ -4,7 +4,7 @@ A small educational blockchain implementation used for demonstrations and exerci
 
 ### What you'll find here
 
-- `include/` — public headers (utils, blocks, blockchain, consensus helpers)
+- `include/` — public hea ders (utils, blocks, blockchain, consensus helpers)
 - `src/` — implementations for the components and `main.cpp` demo
 - `tests/` — small example/tests/exercises used by the demo
 - `CMakeLists.txt` — CMake build script (targets: `blockchain_project` and per-exercise tests)
