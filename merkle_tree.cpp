@@ -289,6 +289,21 @@ int main() {
     std::string originalRoot = originalTree.getRootHash();
     
     std::cout << "Original Merkle Root: " << originalRoot.substr(0, 32) << "..." << std::endl;
+
+    // Modify one transaction
+    std::vector<std::string> modifiedData = originalData;
+    modifiedData[1] = "Transaction 2 MODIFIED";
     
+    MerkleTree modifiedTree(modifiedData);
+    std::string modifiedRoot = modifiedTree.getRootHash();
+    
+    std::cout << "Modified Merkle Root: " << modifiedRoot.substr(0, 32) << "..." << std::endl;
+    std::cout << "\nIntegrity Check: " << (originalRoot == modifiedRoot ? "SAME ✗" : "DIFFERENT ✓") << std::endl;
+    std::cout << "Conclusion: Even a small change in data completely changes the root hash!" << std::endl;
+    
+    std::cout << "\n========================================" << std::endl;
+    std::cout << "         ALL TESTS COMPLETED!" << std::endl;
+    std::cout << "========================================" << std::endl;
+
     return 0;
 }
