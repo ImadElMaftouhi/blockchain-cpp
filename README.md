@@ -37,26 +37,37 @@ This project is part of the Blockchain module for the 2nd year Master IASD progr
 
 ```
 blockchain-cpp/
-├── src/
-│   ├── merkle_tree.cpp          # Merkle Tree implementation
-│   ├── proof_of_work.cpp        # PoW consensus mechanism
-│   ├── proof_of_stake.cpp       # PoS consensus mechanism
-│   ├── transaction.cpp          # Transaction class
-│   ├── block.cpp                # Block class
-│   └── blockchain.cpp           # Main blockchain class
 ├── include/
-│   ├── merkle_tree.h
-│   ├── proof_of_work.h
-│   ├── proof_of_stake.h
-│   ├── transaction.h
-│   ├── block.h
-│   └── blockchain.h
+│   ├── utils.h                  # Shared utilities (SHA-256, time)
+│   ├── merkle_tree.h            # Merkle Tree
+│   ├── transaction.h            # Transaction class
+│   ├── block.h                  # Generic Block interface
+│   ├── block_pow.h              # PoW Block
+│   ├── block_pos.h              # PoS Block
+│   ├── blockchain.h             # Generic Blockchain interface
+│   ├── blockchain_pow.h         # PoW Blockchain
+│   ├── blockchain_pos.h         # PoS Blockchain
+│   └── validator.h              # Validator class
+│
+├── src/
+│   ├── utils.cpp
+│   ├── merkle_tree.cpp
+│   ├── transaction.cpp
+│   ├── block_pow.cpp
+│   ├── block_pos.cpp
+│   ├── blockchain_pow.cpp
+│   ├── blockchain_pos.cpp
+│   └── validator.cpp
+│
 ├── tests/
-│   └── test_blockchain.cpp      # Unit tests
-├── examples/
-│   └── demo.cpp                 # Usage examples
-├── README.md
-└── CMakeLists.txt
+│   ├── test_ex1_merkle.cpp      
+│   ├── test_ex2_pow.cpp         
+│   ├── test_ex3_pos.cpp         # PoW vs PoS
+│   └── test_ex4_complete.cpp    # Complete integration
+│
+├── CMakeLists.txt               # Build configuration
+├── Makefile                     # Alternative build system
+└── README.md
 ```
 
 ## 🚀 Getting Started
