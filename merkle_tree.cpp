@@ -252,5 +252,28 @@ int main() {
     std::cout << "\nVerifying non-existing transaction: \"" << nonExistingTx << "\"" << std::endl;
     std::cout << "Result: " << (tree1.verifyTransaction(nonExistingTx) ? "FOUND ✓" : "NOT FOUND ✗") << std::endl;
     
+    // ========== TEST 5: Large Dataset ==========
+    std::cout << "\nTEST 5: Performance with Large Dataset" << std::endl;
+    std::cout << "---------------------------------------" << std::endl;
+    
+    std::vector<std::string> largeDataset;
+    for (int i = 0; i < 1000; i++) {
+        largeDataset.push_back("Transaction " + std::to_string(i));
+    }
+    
+    start = std::chrono::high_resolution_clock::now();
+    MerkleTree largeTree(largeDataset);
+    end = std::chrono::high_resolution_clock::now();
+    duration = std::chrono::duration_cast<std::chrono::microseconds>(end - start);
+    
+    std::cout << "Number of transactions: " << largeDataset.size() << std::endl;
+    std::cout << "Merkle Root: " << largeTree.getRootHash().substr(0, 32) << "..." << std::endl;
+    std::cout << "Build Time: " << duration.count() << " microseconds" << std::endl;
+
+
+
+
+
+    
     return 0;
 }
