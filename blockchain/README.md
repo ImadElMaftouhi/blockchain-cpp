@@ -1,6 +1,87 @@
-#  Blockchain Implementation in C++
+A small educational blockchain implementation used for demonstrations and exercises (Merkle Tree, Proof of Work, Proof of Stake). It is not production software; it is intended for learning and experimentation.
 
-A complete educational implementation of a simplified blockchain system from scratch, demonstrating core blockchain concepts including Merkle Trees, Proof of Work, and Proof of Stake consensus mechanisms.
+## blockchain — educational C++ blockchain demos
+
+### What you'll find here
+
+- `include/` — public headers (utils, blocks, blockchain, consensus helpers)
+- `src/` — implementations for the components and `main.cpp` demo
+- `tests/` — small example/tests/exercises used by the demo
+- `CMakeLists.txt` — CMake build script (targets: `blockchain_project` and per-exercise tests)
+
+## Dependencies
+
+- CMake 3.10+
+- A C++ compiler (GCC or Clang; MinGW-w64 on Windows recommended)
+- OpenSSL development libraries and headers (used for SHA-256)
+
+On Windows, the repository was developed/tested with MSYS2/MinGW-w64. Install packages using the MSYS2 pacman tool if you use that environment:
+
+```powershell
+# for MSYS2 MinGW64
+# in MSYS2 shell (mingw64)
+pacman -Syu
+pacman -S mingw-w64-x86_64-toolchain mingw-w64-x86_64-cmake mingw-w64-x86_64-ninja mingw-w64-x86_64-openssl
+```
+
+If you don't use MSYS2, install OpenSSL dev package via your OS package manager (e.g., `apt install libssl-dev` on Debian/Ubuntu).
+
+## Build (recommended)
+
+From the `blockchain` folder run:
+
+```powershell
+# Create an out-of-source build directory
+cmake -S . -B build -G "Ninja"
+cmake --build build
+```
+
+The build produces `build\blockchain_project.exe` and test executables in `build`.
+
+## Run the demo
+
+From the `blockchain` folder run:
+
+```powershell
+.\build\blockchain_project.exe
+```
+
+The program runs four exercises (Merkle Tree, PoW demo, PoS demo and complete integration) and prints results including timestamps and timings.
+
+## Tests / exercises
+
+There are small example/test programs in `tests/`. After building you can run them from the `build` directory:
+
+```powershell
+.\test_ex1_merkle.exe
+.\test_ex2_pow.exe
+.\test_ex3_pos.exe
+.\test_ex4_complete.exe
+```
+
+## Notes & troubleshooting
+
+- OpenSSL headers not found: ensure the OpenSSL development package is installed and set `OPENSSL_ROOT_DIR` in `CMakeLists.txt` if necessary. For MSYS2 MinGW64, headers live in `C:/msys64/mingw64/include` and libs in `C:/msys64/mingw64/lib`.
+- `measureTime()` now returns microseconds (high-resolution). If you display timings as milliseconds in your prints, convert with the helper `microsToMillis()` in `include/utils.h` to avoid labeling microseconds as ms.
+- Quick fixes: increase PoW difficulty in `main.cpp` to produce visible mining times when demonstrating performance differences.
+
+## Suggested next steps
+
+- Add a CTest integration in `CMakeLists.txt` to run the test executables via `ctest`.
+- Add CLI flags to `main.cpp` to control difficulty, number of transactions, and number of iterations for timing.
+- Add unit tests for core components (Merkle hashing, block validity checks).
+
+## License
+
+This repository is released under the MIT license. See `LICENSE`.
+
+## Author
+
+- Imad El Maftouhi
+
+---
+
+If you want, I can also: (a) convert `measureTime()` uses in `main.cpp` to explicitly call `microsToMillis()` before printing so labels match values, or (b) add a short `build.sh` / `build.ps1` helper script. Which would you prefer?
 
 ## 📋 Project Overview
 
@@ -47,23 +128,30 @@ blockchain/
 │   ├── blockchain.h             # Generic Blockchain interface
 │   ├── blockchain_pow.h         # PoW Blockchain
 │   ├── blockchain_pos.h         # PoS Blockchain
-│   └── validator.h              # Validator class
+│   ├── validator.h              # Validator class
+│   ├── pow.h                    # PoW mechanism
+│   └── pos.h                    # PoS mechanism
 │
 ├── src/
 │   ├── utils.cpp
 │   ├── merkle_tree.cpp
 │   ├── transaction.cpp
+│   ├── block.cpp                # Generic Block implementation
 │   ├── block_pow.cpp
 │   ├── block_pos.cpp
+│   ├── blockchain.cpp           # Generic Blockchain implementation
 │   ├── blockchain_pow.cpp
 │   ├── blockchain_pos.cpp
-│   └── validator.cpp
+│   ├── validator.cpp
+│   ├── pow.cpp        # PoW implementation
+│   ├── pos.cpp       # PoS implementation
+│   └── main.cpp                 # Main entry point and demo
 │
 ├── tests/
-│   ├── test_ex1_merkle.cpp      
-│   ├── test_ex2_pow.cpp         
-│   ├── test_ex3_pos.cpp         # PoW vs PoS
-│   └── test_ex4_complete.cpp    # Complete integration
+│   ├── test_ex1_merkle.cpp      # Test for Exercise 1
+│   ├── test_ex2_pow.cpp         # Test for Exercise 2
+│   ├── test_ex3_pos.cpp         # Test for Exercise 3 (PoW vs PoS)
+│   └── test_ex4_complete.cpp    # Test for Exercise 4 (complete integration)
 │
 ├── CMakeLists.txt               # Build configuration
 ├── Makefile                     # Alternative build system
@@ -86,11 +174,11 @@ git clone https://github.com/ImadElMaftouhi/blockchain-cpp.git
 cd blockchain-cpp
 
 # Create build directory
-mkdir build && cd build
+mkdir build
 
 # Configure and build
-cmake ..
-make
+cmake -S . -B build -G "Ninja"
+cd "c:\Users\imade\Documents\Professional\IASD\S3\Blockchain & applied security\atelier_1\blockchain-cpp\blockchain"; cmake --build build --verbose
 
 # Run the demo
 ./blockchain_demo

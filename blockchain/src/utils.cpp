@@ -2,6 +2,8 @@
 #include <openssl/sha.h>
 #include <sstream>
 #include <iomanip>
+#include <chrono>
+
 
 std::string sha256(const std::string& input) {
     unsigned char hash[SHA256_DIGEST_LENGTH];
@@ -14,17 +16,18 @@ std::string sha256(const std::string& input) {
 }
 
 std::string getCurrentTime() {
-    time_t now = time(0);
-    char* dt = ctime(&now);
-    std::string timeStr(dt);
-    timeStr.pop_back();
-    return timeStr;
-}
-
-template<typename F>
-long long measureTime(F func) {
-    auto start = std::chrono::high_resolution_clock::now();
-    func();
-    auto end = std::chrono::high_resolution_clock::now();
-    return std::chrono::duration_cast<std::chrono::milliseconds>(end - start).count();
+    using namespace std::chrono;
+    auto now = system_clock::now();
+    auto ms = duration_cast<milliseconds>(now.time_since_epoch()) % 1000;
+    std::time_t t = system_clock::to_time_t(now);
+    std::tm bt;
+#ifdef _WIN32
+    localtime_s(&bt, &t);
+#else
+    localtime_r(&t, &bt);
+#endif
+    std::ostringstream oss;
+    oss << std::put_time(&bt, "%a %b %d %H:%M:%S");
+    oss << "." << std::setw(3) << std::setfill('0') << ms.count();
+    return oss.str();
 }

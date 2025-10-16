@@ -5,33 +5,23 @@
 #include <chrono>
 #include <ctime>
 #include <openssl/sha.h>
-#include <sstream>
-#include <iomanip>
 
-std::string sha256(const std::string& input) {
-    unsigned char hash[SHA256_DIGEST_LENGTH];
-    SHA256((unsigned char*)input.c_str(), input.length(), hash);
-    std::stringstream ss;
-    for(int i = 0; i < SHA256_DIGEST_LENGTH; i++) {
-        ss << std::hex << std::setw(2) << std::setfill('0') << (int)hash[i];
-    }
-    return ss.str();
-}
+// Declarations for utility functions. Implementations live in src/utils.cpp
+std::string sha256(const std::string& input);
+std::string getCurrentTime();
 
-std::string getCurrentTime() {
-    time_t now = time(0);
-    char* dt = ctime(&now);
-    std::string timeStr(dt);
-    timeStr.pop_back();
-    return timeStr;
-}
-
+// Template must be defined in header. Return microseconds for better granularity.
 template<typename F>
 long long measureTime(F func) {
     auto start = std::chrono::high_resolution_clock::now();
     func();
     auto end = std::chrono::high_resolution_clock::now();
-    return std::chrono::duration_cast<std::chrono::milliseconds>(end - start).count();
+    return std::chrono::duration_cast<std::chrono::microseconds>(end - start).count();
+}
+
+// Helper to convert microseconds to milliseconds (rounded)
+inline long long microsToMillis(long long micros) {
+    return (micros + 500) / 1000;
 }
 
 #endif

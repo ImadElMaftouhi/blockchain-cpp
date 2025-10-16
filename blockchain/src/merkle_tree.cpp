@@ -70,7 +70,7 @@ void MerkleTree::printTree(MerkleNode* node, int depth) const {
 }
 
 void MerkleTree::printTree() const {
-    std::cout << "\n=== Merke Tree Structure" << std::endl;
+    std::cout << "\n=== Merkle Tree Structure" << std::endl;
     printTree(root);
     std::cout << "========================\n" << std::endl;
 }

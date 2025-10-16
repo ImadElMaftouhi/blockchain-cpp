@@ -3,14 +3,7 @@
 
 #include <string>
 #include <vector>
-
-class Validator {
-public:
-    std::string id;
-    int stake;
-
-    Validator(std::string i, int s) : id(i), stake(s) {}
-};
+#include "validator.h"
 
 class ProofOfStake {
 public:
