@@ -191,3 +191,37 @@ public:
         return chain.size();
     }
 };
+
+
+// DIFFICULTY COMPARISON TEST
+void testDifficultyLevels() {
+    std::cout << "\n########################################" << std::endl;
+    std::cout << "#   DIFFICULTY LEVEL COMPARISON TEST   #" << std::endl;
+    std::cout << "########################################\n" << std::endl;
+    
+    std::vector<int> difficulties = {1, 2, 3, 4, 5};
+    
+    std::cout << "Testing block mining with different difficulty levels..." << std::endl;
+    std::cout << "Each test will mine a single block.\n" << std::endl;
+    
+    for (int diff : difficulties) {
+        std::cout << "\n========================================" << std::endl;
+        std::cout << "Testing Difficulty: " << diff << " (hash must start with " << diff << " zeros)" << std::endl;
+        std::cout << "========================================" << std::endl;
+        
+        auto startTime = std::chrono::high_resolution_clock::now();
+        
+        Block testBlock(1, "Test Block for Difficulty " + std::to_string(diff), "previous_hash");
+        testBlock.mineBlock(diff);
+        
+        auto endTime = std::chrono::high_resolution_clock::now();
+        auto duration = std::chrono::duration_cast<std::chrono::milliseconds>(endTime - startTime);
+        
+        std::cout << "\nResult:" << std::endl;
+        std::cout << "  Difficulty: " << diff << std::endl;
+        std::cout << "  Attempts (Nonce): " << testBlock.nonce << std::endl;
+        std::cout << "  Time: " << duration.count() << " ms" << std::endl;
+        std::cout << "  Hash: " << testBlock.hash << std::endl;
+        std::cout << "  Verification: " << testBlock.hash.substr(0, diff) << " (first " << diff << " chars)" << std::endl;
+    }
+}
