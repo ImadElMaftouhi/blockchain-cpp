@@ -225,7 +225,7 @@ int main() {
     
     tree2.printTree();
 
-
+    // ========== TEST 3: Single Transaction ==========
     std::cout << "\nTEST 3: Building Merkle Tree with 1 transaction" << std::endl;
     std::cout << "------------------------------------------------" << std::endl;
     
@@ -238,6 +238,19 @@ int main() {
     std::cout << "Merkle Root: " << tree3.getRootHash() << std::endl;
     
     tree3.printTree();
+
+    // ========== TEST 4: Verification ==========
+    std::cout << "\nTEST 4: Transaction Verification" << std::endl;
+    std::cout << "---------------------------------" << std::endl;
+    
+    std::string existingTx = "Alice sends 50 BTC to Bob";
+    std::string nonExistingTx = "Eve sends 100 BTC to Frank";
+    
+    std::cout << "Verifying existing transaction: \"" << existingTx << "\"" << std::endl;
+    std::cout << "Result: " << (tree1.verifyTransaction(existingTx) ? "FOUND ✓" : "NOT FOUND ✗") << std::endl;
+    
+    std::cout << "\nVerifying non-existing transaction: \"" << nonExistingTx << "\"" << std::endl;
+    std::cout << "Result: " << (tree1.verifyTransaction(nonExistingTx) ? "FOUND ✓" : "NOT FOUND ✗") << std::endl;
     
     return 0;
 }
