@@ -93,3 +93,101 @@ private:
         return timeStr;
     }
 };
+
+
+// BLOCKCHAIN CLASS
+class Blockchain {
+private:
+    std::vector<Block> chain;
+    int difficulty;
+    
+public:
+    // Constructor - creates genesis block
+    Blockchain(int diff = 2) {
+        difficulty = diff;
+        chain.push_back(createGenesisBlock());
+    }
+    
+    // Create the first block (Genesis Block)
+    Block createGenesisBlock() {
+        Block genesis(0, "Genesis Block", "0");
+        std::cout << "\n=== Creating Genesis Block ===" << std::endl;
+        genesis.mineBlock(difficulty);
+        return genesis;
+    }
+    
+    // Get the latest block in the chain
+    Block getLatestBlock() const {
+        return chain.back();
+    }
+    
+    // Add a new block to the chain
+    void addBlock(const std::string& data) {
+        Block newBlock(chain.size(), data, getLatestBlock().hash);
+        
+        std::cout << "\n=== Mining Block #" << newBlock.index << " ===" << std::endl;
+        std::cout << "Data: " << data << std::endl;
+        std::cout << "Difficulty: " << difficulty << std::endl;
+        
+        newBlock.mineBlock(difficulty);
+        chain.push_back(newBlock);
+    }
+    
+    // Verify the integrity of the blockchain
+    bool isChainValid() const {
+        // Check each block (starting from block 1, since genesis is always valid)
+        for (size_t i = 1; i < chain.size(); i++) {
+            const Block& currentBlock = chain[i];
+            const Block& previousBlock = chain[i - 1];
+            
+            // Check if current block's hash is correct
+            if (currentBlock.hash != currentBlock.calculateHash()) {
+                std::cout << "Block #" << i << " has been tampered with!" << std::endl;
+                return false;
+            }
+            
+            // Check if previous hash matches
+            if (currentBlock.previousHash != previousBlock.hash) {
+                std::cout << "Block #" << i << " has invalid previous hash!" << std::endl;
+                return false;
+            }
+            
+            // Check if hash meets difficulty requirement
+            std::string target(currentBlock.difficulty, '0');
+            if (currentBlock.hash.substr(0, currentBlock.difficulty) != target) {
+                std::cout << "Block #" << i << " doesn't meet difficulty requirement!" << std::endl;
+                return false;
+            }
+        }
+        
+        return true;
+    }
+    
+    // Display entire blockchain
+    void displayChain() const {
+        std::cout << "\n======================================" << std::endl;
+        std::cout << "       BLOCKCHAIN CONTENTS" << std::endl;
+        std::cout << "======================================" << std::endl;
+        
+        for (const auto& block : chain) {
+            block.displayBlock();
+        }
+        
+        std::cout << "\n======================================" << std::endl;
+    }
+    
+    // Set difficulty level
+    void setDifficulty(int diff) {
+        difficulty = diff;
+    }
+    
+    // Get current difficulty
+    int getDifficulty() const {
+        return difficulty;
+    }
+    
+    // Get chain size
+    size_t getChainSize() const {
+        return chain.size();
+    }
+};
