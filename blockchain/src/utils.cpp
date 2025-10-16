@@ -1,9 +1,4 @@
-#ifndef UTILS_H
-#define UTILS_H
-
-#include <string>
-#include <chrono>
-#include <ctime>
+#include "utils.h"
 #include <openssl/sha.h>
 #include <sstream>
 #include <iomanip>
@@ -33,5 +28,3 @@ long long measureTime(F func) {
     auto end = std::chrono::high_resolution_clock::now();
     return std::chrono::duration_cast<std::chrono::milliseconds>(end - start).count();
 }
-
-#endif

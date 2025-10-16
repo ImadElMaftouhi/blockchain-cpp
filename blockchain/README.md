@@ -36,7 +36,7 @@ This project is part of the Blockchain module for the 2nd year Master IASD progr
 ## 🏗️ Project Structure
 
 ```
-blockchain-cpp/
+blockchain/
 ├── include/
 │   ├── utils.h                  # Shared utilities (SHA-256, time)
 │   ├── merkle_tree.h            # Merkle Tree
@@ -67,6 +67,7 @@ blockchain-cpp/
 │
 ├── CMakeLists.txt               # Build configuration
 ├── Makefile                     # Alternative build system
+├── LICENSE
 └── README.md
 ```
 

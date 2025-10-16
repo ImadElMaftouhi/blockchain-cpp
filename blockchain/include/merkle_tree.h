@@ -3,7 +3,6 @@
 
 #include <string>
 #include <vector>
-#include <openssl/sha.h>
 
 class MerkleNode {
 public:
@@ -19,6 +18,7 @@ public:
 class MerkleTree {
 private:
     MerkleNode* root;
+
     MerkleNode* buildTreeRecursive(std::vector<MerkleNode*>& nodes);
     bool searchHash(MerkleNode* node, const std::string& targetHash) const;
 
@@ -28,6 +28,7 @@ public:
     void printTree(MerkleNode* node, int depth = 0) const;
     void printTree() const;
     bool verifyTransaction(const std::string& transaction) const;
+
     ~MerkleTree();
 };
 
