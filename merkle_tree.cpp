@@ -22,14 +22,17 @@ The main function I built into these are function that build the tree from data,
 - The time complexity of building a Merkle Tree with N Transactions is O(N).
 - In case we change one transaction after building the tree, we need to recompute the root hash to ensure the integrity of the data.
 - TO verify that a specific transaction exists in the tree without rebuilding everthing, we need the hash value of the sibling, the parent node and the root node. Then we can compare the hashes to see if the transaction exists in the tree.
-
 */
 
+
+
 #include <iostream>
-#include <string>
 #include <vector>
+#include <string>
+// #include <openssl/sha.h>
 #include <sstream>
 #include <iomanip>
+#include <chrono>
 
 
 std::string sha256(const std::string& input) {
@@ -170,3 +173,38 @@ class MerkleTree {
             delete root;
         }
 };
+
+
+// MAIN: DEMONSTRATION AND TESTING
+int main() {
+    std::cout << "========================================" << std::endl;
+    std::cout << "   MERKLE TREE IMPLEMENTATION DEMO" << std::endl;
+    std::cout << "========================================\n" << std::endl;
+    
+    // ========== TEST 1: Basic Tree with 4 Transactions ==========
+    std::cout << "TEST 1: Building Merkle Tree with 4 transactions" << std::endl;
+    std::cout << "------------------------------------------------" << std::endl;
+    
+    std::vector<std::string> transactions1 = {
+        "Alice sends 50 BTC to Bob",
+        "Bob sends 30 BTC to Charlie",
+        "Charlie sends 20 BTC to David",
+        "David sends 10 BTC to Eve"
+    };
+    
+    auto start = std::chrono::high_resolution_clock::now();
+    MerkleTree tree1(transactions1);
+    auto end = std::chrono::high_resolution_clock::now();
+    auto duration = std::chrono::duration_cast<std::chrono::microseconds>(end - start);
+    
+    std::cout << "Transactions:" << std::endl;
+    for (size_t i = 0; i < transactions1.size(); i++) {
+        std::cout << "  " << i+1 << ". " << transactions1[i] << std::endl;
+    }
+    std::cout << "\nMerkle Root: " << tree1.getRootHash() << std::endl;
+    std::cout << "Build Time: " << duration.count() << " microseconds" << std::endl;
+    
+    tree1.printTree();
+    
+    return 0;
+}
