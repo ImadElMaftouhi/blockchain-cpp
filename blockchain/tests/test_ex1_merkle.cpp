@@ -4,7 +4,11 @@
 #include <cassert>
 
 int main() {
-    std::vector<std::string> transactions = {"Tx1: Alice->Bob:50", "Tx2: Bob->Charlie:30", "Tx3: Charlie->David:20"};
+    std::vector<std::string> transactions = {
+        "Tx1: Alice->Bob:50", 
+        "Tx2: Bob->Charlie:30", 
+        "Tx3: Charlie->David:20"
+    };
     MerkleTree merkleTree(transactions);
     assert(!merkleTree.getRootHash().empty());
     merkleTree.printTree();
