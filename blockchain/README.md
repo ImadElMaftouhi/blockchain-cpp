@@ -132,6 +132,19 @@ cmake --build build
 
 The build produces `build\blockchain_project.exe` and test executables in `build`.
 
+## Run tests
+```
+cd .\build
+ctest -V
+```
+
+Or 
+
+```
+cmake --build build --target check
+```
+
+
 ## Run the demo
 
 From the `blockchain` folder run:
