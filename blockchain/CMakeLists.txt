@@ -53,3 +53,18 @@ target_link_libraries(test_ex3_pos PRIVATE blockchain_lib ${OPENSSL_LIBS})
 
 add_executable(test_ex4_complete tests/test_ex4_complete.cpp)
 target_link_libraries(test_ex4_complete PRIVATE blockchain_lib ${OPENSSL_LIBS})
+
+enable_testing()
+add_test(NAME ex_1_merkle_test COMMAND $<TARGET_FILE:test_ex1_merkle>)
+add_test(NAME ex2_pow_test COMMAND $<TARGET_FILE:test_ex2_pow>)
+add_test(NAME ex3_pos_test COMMAND $<TARGET_FILE:test_ex3_pos>)
+add_test(NAME ex4_complete_test COMMAND $<TARGET_FILE:test_ex4_complete>)
+
+add_custom_target(
+    check DEPENDS test_ex1_merkle test_ex2_pow test_ex3_pos test_ex4_complete COMMAND ${CMAKE_CTEST_COMMAND} 
+    --output-on-failure 
+    COMMENT "Build the test executables and runs CTest (verbose on failure)"
+    )
+
+
+
