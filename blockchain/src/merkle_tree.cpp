@@ -18,8 +18,19 @@ MerkleNode::MerkleNode(MerkleNode* l, MerkleNode* r) {
 }
 
 MerkleNode::~MerkleNode() {
-    delete left;
-    delete right;
+    MerkleNode* l = left;
+    MerkleNode* r = right;
+    //avoid double-delete when both child pointers point to the same node
+    // could be solved using unique_ptr instead of regular pointers
+    if (l && r && l == r) {
+        // both pointers point to the same child, delete it only once
+        delete l;
+    } else {
+        if (l) delete l;
+        if (r) delete r;
+    }
+    left = nullptr;
+    right = nullptr;
 }
 
 MerkleTree::MerkleTree(const std::vector<std::string>& transactions) {
