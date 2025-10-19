@@ -1,0 +1,5 @@
+ex_1_merkle_test 1 0.157575
+ex2_pow_test 3 0.0595989
+ex3_pos_test 3 0.0332862
+ex4_complete_test 3 0.0304878
+---

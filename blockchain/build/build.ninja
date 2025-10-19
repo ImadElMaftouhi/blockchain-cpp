@@ -50,8 +50,6 @@ build CMakeFiles/blockchain_lib.dir/src/utils.cpp.obj: CXX_COMPILER__blockchain_
   INCLUDES = -I"C:/Users/imade/Documents/Professional/IASD/S3/Blockchain & applied security/atelier_1/blockchain-cpp/blockchain/include" -isystem C:/msys64/mingw64/include
   OBJECT_DIR = CMakeFiles\blockchain_lib.dir
   OBJECT_FILE_DIR = CMakeFiles\blockchain_lib.dir\src
-  TARGET_COMPILE_PDB = CMakeFiles\blockchain_lib.dir\blockchain_lib.pdb
-  TARGET_PDB = libblockchain_lib.pdb
 
 build CMakeFiles/blockchain_lib.dir/src/merkle_tree.cpp.obj: CXX_COMPILER__blockchain_lib_unscanned_ C$:/Users/imade/Documents/Professional/IASD/S3/Blockchain$ &$ applied$ security/atelier_1/blockchain-cpp/blockchain/src/merkle_tree.cpp || cmake_object_order_depends_target_blockchain_lib
   DEP_FILE = CMakeFiles\blockchain_lib.dir\src\merkle_tree.cpp.obj.d
@@ -59,8 +57,6 @@ build CMakeFiles/blockchain_lib.dir/src/merkle_tree.cpp.obj: CXX_COMPILER__block
   INCLUDES = -I"C:/Users/imade/Documents/Professional/IASD/S3/Blockchain & applied security/atelier_1/blockchain-cpp/blockchain/include" -isystem C:/msys64/mingw64/include
   OBJECT_DIR = CMakeFiles\blockchain_lib.dir
   OBJECT_FILE_DIR = CMakeFiles\blockchain_lib.dir\src
-  TARGET_COMPILE_PDB = CMakeFiles\blockchain_lib.dir\blockchain_lib.pdb
-  TARGET_PDB = libblockchain_lib.pdb
 
 build CMakeFiles/blockchain_lib.dir/src/transaction.cpp.obj: CXX_COMPILER__blockchain_lib_unscanned_ C$:/Users/imade/Documents/Professional/IASD/S3/Blockchain$ &$ applied$ security/atelier_1/blockchain-cpp/blockchain/src/transaction.cpp || cmake_object_order_depends_target_blockchain_lib
   DEP_FILE = CMakeFiles\blockchain_lib.dir\src\transaction.cpp.obj.d
@@ -68,8 +64,6 @@ build CMakeFiles/blockchain_lib.dir/src/transaction.cpp.obj: CXX_COMPILER__block
   INCLUDES = -I"C:/Users/imade/Documents/Professional/IASD/S3/Blockchain & applied security/atelier_1/blockchain-cpp/blockchain/include" -isystem C:/msys64/mingw64/include
   OBJECT_DIR = CMakeFiles\blockchain_lib.dir
   OBJECT_FILE_DIR = CMakeFiles\blockchain_lib.dir\src
-  TARGET_COMPILE_PDB = CMakeFiles\blockchain_lib.dir\blockchain_lib.pdb
-  TARGET_PDB = libblockchain_lib.pdb
 
 build CMakeFiles/blockchain_lib.dir/src/block.cpp.obj: CXX_COMPILER__blockchain_lib_unscanned_ C$:/Users/imade/Documents/Professional/IASD/S3/Blockchain$ &$ applied$ security/atelier_1/blockchain-cpp/blockchain/src/block.cpp || cmake_object_order_depends_target_blockchain_lib
   DEP_FILE = CMakeFiles\blockchain_lib.dir\src\block.cpp.obj.d
@@ -77,8 +71,6 @@ build CMakeFiles/blockchain_lib.dir/src/block.cpp.obj: CXX_COMPILER__blockchain_
   INCLUDES = -I"C:/Users/imade/Documents/Professional/IASD/S3/Blockchain & applied security/atelier_1/blockchain-cpp/blockchain/include" -isystem C:/msys64/mingw64/include
   OBJECT_DIR = CMakeFiles\blockchain_lib.dir
   OBJECT_FILE_DIR = CMakeFiles\blockchain_lib.dir\src
-  TARGET_COMPILE_PDB = CMakeFiles\blockchain_lib.dir\blockchain_lib.pdb
-  TARGET_PDB = libblockchain_lib.pdb
 
 build CMakeFiles/blockchain_lib.dir/src/block_pow.cpp.obj: CXX_COMPILER__blockchain_lib_unscanned_ C$:/Users/imade/Documents/Professional/IASD/S3/Blockchain$ &$ applied$ security/atelier_1/blockchain-cpp/blockchain/src/block_pow.cpp || cmake_object_order_depends_target_blockchain_lib
   DEP_FILE = CMakeFiles\blockchain_lib.dir\src\block_pow.cpp.obj.d
@@ -86,8 +78,6 @@ build CMakeFiles/blockchain_lib.dir/src/block_pow.cpp.obj: CXX_COMPILER__blockch
   INCLUDES = -I"C:/Users/imade/Documents/Professional/IASD/S3/Blockchain & applied security/atelier_1/blockchain-cpp/blockchain/include" -isystem C:/msys64/mingw64/include
   OBJECT_DIR = CMakeFiles\blockchain_lib.dir
   OBJECT_FILE_DIR = CMakeFiles\blockchain_lib.dir\src
-  TARGET_COMPILE_PDB = CMakeFiles\blockchain_lib.dir\blockchain_lib.pdb
-  TARGET_PDB = libblockchain_lib.pdb
 
 build CMakeFiles/blockchain_lib.dir/src/block_pos.cpp.obj: CXX_COMPILER__blockchain_lib_unscanned_ C$:/Users/imade/Documents/Professional/IASD/S3/Blockchain$ &$ applied$ security/atelier_1/blockchain-cpp/blockchain/src/block_pos.cpp || cmake_object_order_depends_target_blockchain_lib
   DEP_FILE = CMakeFiles\blockchain_lib.dir\src\block_pos.cpp.obj.d
@@ -95,8 +85,6 @@ build CMakeFiles/blockchain_lib.dir/src/block_pos.cpp.obj: CXX_COMPILER__blockch
   INCLUDES = -I"C:/Users/imade/Documents/Professional/IASD/S3/Blockchain & applied security/atelier_1/blockchain-cpp/blockchain/include" -isystem C:/msys64/mingw64/include
   OBJECT_DIR = CMakeFiles\blockchain_lib.dir
   OBJECT_FILE_DIR = CMakeFiles\blockchain_lib.dir\src
-  TARGET_COMPILE_PDB = CMakeFiles\blockchain_lib.dir\blockchain_lib.pdb
-  TARGET_PDB = libblockchain_lib.pdb
 
 build CMakeFiles/blockchain_lib.dir/src/blockchain.cpp.obj: CXX_COMPILER__blockchain_lib_unscanned_ C$:/Users/imade/Documents/Professional/IASD/S3/Blockchain$ &$ applied$ security/atelier_1/blockchain-cpp/blockchain/src/blockchain.cpp || cmake_object_order_depends_target_blockchain_lib
   DEP_FILE = CMakeFiles\blockchain_lib.dir\src\blockchain.cpp.obj.d
@@ -104,8 +92,6 @@ build CMakeFiles/blockchain_lib.dir/src/blockchain.cpp.obj: CXX_COMPILER__blockc
   INCLUDES = -I"C:/Users/imade/Documents/Professional/IASD/S3/Blockchain & applied security/atelier_1/blockchain-cpp/blockchain/include" -isystem C:/msys64/mingw64/include
   OBJECT_DIR = CMakeFiles\blockchain_lib.dir
   OBJECT_FILE_DIR = CMakeFiles\blockchain_lib.dir\src
-  TARGET_COMPILE_PDB = CMakeFiles\blockchain_lib.dir\blockchain_lib.pdb
-  TARGET_PDB = libblockchain_lib.pdb
 
 build CMakeFiles/blockchain_lib.dir/src/blockchain_pow.cpp.obj: CXX_COMPILER__blockchain_lib_unscanned_ C$:/Users/imade/Documents/Professional/IASD/S3/Blockchain$ &$ applied$ security/atelier_1/blockchain-cpp/blockchain/src/blockchain_pow.cpp || cmake_object_order_depends_target_blockchain_lib
   DEP_FILE = CMakeFiles\blockchain_lib.dir\src\blockchain_pow.cpp.obj.d
@@ -113,8 +99,6 @@ build CMakeFiles/blockchain_lib.dir/src/blockchain_pow.cpp.obj: CXX_COMPILER__bl
   INCLUDES = -I"C:/Users/imade/Documents/Professional/IASD/S3/Blockchain & applied security/atelier_1/blockchain-cpp/blockchain/include" -isystem C:/msys64/mingw64/include
   OBJECT_DIR = CMakeFiles\blockchain_lib.dir
   OBJECT_FILE_DIR = CMakeFiles\blockchain_lib.dir\src
-  TARGET_COMPILE_PDB = CMakeFiles\blockchain_lib.dir\blockchain_lib.pdb
-  TARGET_PDB = libblockchain_lib.pdb
 
 build CMakeFiles/blockchain_lib.dir/src/blockchain_pos.cpp.obj: CXX_COMPILER__blockchain_lib_unscanned_ C$:/Users/imade/Documents/Professional/IASD/S3/Blockchain$ &$ applied$ security/atelier_1/blockchain-cpp/blockchain/src/blockchain_pos.cpp || cmake_object_order_depends_target_blockchain_lib
   DEP_FILE = CMakeFiles\blockchain_lib.dir\src\blockchain_pos.cpp.obj.d
@@ -122,8 +106,6 @@ build CMakeFiles/blockchain_lib.dir/src/blockchain_pos.cpp.obj: CXX_COMPILER__bl
   INCLUDES = -I"C:/Users/imade/Documents/Professional/IASD/S3/Blockchain & applied security/atelier_1/blockchain-cpp/blockchain/include" -isystem C:/msys64/mingw64/include
   OBJECT_DIR = CMakeFiles\blockchain_lib.dir
   OBJECT_FILE_DIR = CMakeFiles\blockchain_lib.dir\src
-  TARGET_COMPILE_PDB = CMakeFiles\blockchain_lib.dir\blockchain_lib.pdb
-  TARGET_PDB = libblockchain_lib.pdb
 
 build CMakeFiles/blockchain_lib.dir/src/validator.cpp.obj: CXX_COMPILER__blockchain_lib_unscanned_ C$:/Users/imade/Documents/Professional/IASD/S3/Blockchain$ &$ applied$ security/atelier_1/blockchain-cpp/blockchain/src/validator.cpp || cmake_object_order_depends_target_blockchain_lib
   DEP_FILE = CMakeFiles\blockchain_lib.dir\src\validator.cpp.obj.d
@@ -131,8 +113,6 @@ build CMakeFiles/blockchain_lib.dir/src/validator.cpp.obj: CXX_COMPILER__blockch
   INCLUDES = -I"C:/Users/imade/Documents/Professional/IASD/S3/Blockchain & applied security/atelier_1/blockchain-cpp/blockchain/include" -isystem C:/msys64/mingw64/include
   OBJECT_DIR = CMakeFiles\blockchain_lib.dir
   OBJECT_FILE_DIR = CMakeFiles\blockchain_lib.dir\src
-  TARGET_COMPILE_PDB = CMakeFiles\blockchain_lib.dir\blockchain_lib.pdb
-  TARGET_PDB = libblockchain_lib.pdb
 
 build CMakeFiles/blockchain_lib.dir/src/pow.cpp.obj: CXX_COMPILER__blockchain_lib_unscanned_ C$:/Users/imade/Documents/Professional/IASD/S3/Blockchain$ &$ applied$ security/atelier_1/blockchain-cpp/blockchain/src/pow.cpp || cmake_object_order_depends_target_blockchain_lib
   DEP_FILE = CMakeFiles\blockchain_lib.dir\src\pow.cpp.obj.d
@@ -140,8 +120,6 @@ build CMakeFiles/blockchain_lib.dir/src/pow.cpp.obj: CXX_COMPILER__blockchain_li
   INCLUDES = -I"C:/Users/imade/Documents/Professional/IASD/S3/Blockchain & applied security/atelier_1/blockchain-cpp/blockchain/include" -isystem C:/msys64/mingw64/include
   OBJECT_DIR = CMakeFiles\blockchain_lib.dir
   OBJECT_FILE_DIR = CMakeFiles\blockchain_lib.dir\src
-  TARGET_COMPILE_PDB = CMakeFiles\blockchain_lib.dir\blockchain_lib.pdb
-  TARGET_PDB = libblockchain_lib.pdb
 
 build CMakeFiles/blockchain_lib.dir/src/pos.cpp.obj: CXX_COMPILER__blockchain_lib_unscanned_ C$:/Users/imade/Documents/Professional/IASD/S3/Blockchain$ &$ applied$ security/atelier_1/blockchain-cpp/blockchain/src/pos.cpp || cmake_object_order_depends_target_blockchain_lib
   DEP_FILE = CMakeFiles\blockchain_lib.dir\src\pos.cpp.obj.d
@@ -149,8 +127,6 @@ build CMakeFiles/blockchain_lib.dir/src/pos.cpp.obj: CXX_COMPILER__blockchain_li
   INCLUDES = -I"C:/Users/imade/Documents/Professional/IASD/S3/Blockchain & applied security/atelier_1/blockchain-cpp/blockchain/include" -isystem C:/msys64/mingw64/include
   OBJECT_DIR = CMakeFiles\blockchain_lib.dir
   OBJECT_FILE_DIR = CMakeFiles\blockchain_lib.dir\src
-  TARGET_COMPILE_PDB = CMakeFiles\blockchain_lib.dir\blockchain_lib.pdb
-  TARGET_PDB = libblockchain_lib.pdb
 
 
 # =============================================================================
@@ -164,9 +140,8 @@ build libblockchain_lib.a: CXX_STATIC_LIBRARY_LINKER__blockchain_lib_ CMakeFiles
   OBJECT_DIR = CMakeFiles\blockchain_lib.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\blockchain_lib.dir\blockchain_lib.pdb
   TARGET_FILE = libblockchain_lib.a
-  TARGET_PDB = libblockchain_lib.pdb
+  TARGET_PDB = blockchain_lib.a.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target blockchain_project
@@ -183,8 +158,6 @@ build CMakeFiles/blockchain_project.dir/src/main.cpp.obj: CXX_COMPILER__blockcha
   INCLUDES = -I"C:/Users/imade/Documents/Professional/IASD/S3/Blockchain & applied security/atelier_1/blockchain-cpp/blockchain/include" -isystem C:/msys64/mingw64/include
   OBJECT_DIR = CMakeFiles\blockchain_project.dir
   OBJECT_FILE_DIR = CMakeFiles\blockchain_project.dir\src
-  TARGET_COMPILE_PDB = CMakeFiles\blockchain_project.dir\
-  TARGET_PDB = blockchain_project.pdb
 
 
 # =============================================================================
@@ -199,10 +172,9 @@ build blockchain_project.exe: CXX_EXECUTABLE_LINKER__blockchain_project_ CMakeFi
   OBJECT_DIR = CMakeFiles\blockchain_project.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\blockchain_project.dir\
   TARGET_FILE = blockchain_project.exe
   TARGET_IMPLIB = libblockchain_project.dll.a
-  TARGET_PDB = blockchain_project.pdb
+  TARGET_PDB = blockchain_project.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target test_ex1_merkle
@@ -219,8 +191,6 @@ build CMakeFiles/test_ex1_merkle.dir/tests/test_ex1_merkle.cpp.obj: CXX_COMPILER
   INCLUDES = -I"C:/Users/imade/Documents/Professional/IASD/S3/Blockchain & applied security/atelier_1/blockchain-cpp/blockchain/include" -isystem C:/msys64/mingw64/include
   OBJECT_DIR = CMakeFiles\test_ex1_merkle.dir
   OBJECT_FILE_DIR = CMakeFiles\test_ex1_merkle.dir\tests
-  TARGET_COMPILE_PDB = CMakeFiles\test_ex1_merkle.dir\
-  TARGET_PDB = test_ex1_merkle.pdb
 
 
 # =============================================================================
@@ -235,10 +205,9 @@ build test_ex1_merkle.exe: CXX_EXECUTABLE_LINKER__test_ex1_merkle_ CMakeFiles/te
   OBJECT_DIR = CMakeFiles\test_ex1_merkle.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\test_ex1_merkle.dir\
   TARGET_FILE = test_ex1_merkle.exe
   TARGET_IMPLIB = libtest_ex1_merkle.dll.a
-  TARGET_PDB = test_ex1_merkle.pdb
+  TARGET_PDB = test_ex1_merkle.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target test_ex2_pow
@@ -255,8 +224,6 @@ build CMakeFiles/test_ex2_pow.dir/tests/test_ex2_pow.cpp.obj: CXX_COMPILER__test
   INCLUDES = -I"C:/Users/imade/Documents/Professional/IASD/S3/Blockchain & applied security/atelier_1/blockchain-cpp/blockchain/include" -isystem C:/msys64/mingw64/include
   OBJECT_DIR = CMakeFiles\test_ex2_pow.dir
   OBJECT_FILE_DIR = CMakeFiles\test_ex2_pow.dir\tests
-  TARGET_COMPILE_PDB = CMakeFiles\test_ex2_pow.dir\
-  TARGET_PDB = test_ex2_pow.pdb
 
 
 # =============================================================================
@@ -271,10 +238,9 @@ build test_ex2_pow.exe: CXX_EXECUTABLE_LINKER__test_ex2_pow_ CMakeFiles/test_ex2
   OBJECT_DIR = CMakeFiles\test_ex2_pow.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\test_ex2_pow.dir\
   TARGET_FILE = test_ex2_pow.exe
   TARGET_IMPLIB = libtest_ex2_pow.dll.a
-  TARGET_PDB = test_ex2_pow.pdb
+  TARGET_PDB = test_ex2_pow.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target test_ex3_pos
@@ -291,8 +257,6 @@ build CMakeFiles/test_ex3_pos.dir/tests/test_ex3_pos.cpp.obj: CXX_COMPILER__test
   INCLUDES = -I"C:/Users/imade/Documents/Professional/IASD/S3/Blockchain & applied security/atelier_1/blockchain-cpp/blockchain/include" -isystem C:/msys64/mingw64/include
   OBJECT_DIR = CMakeFiles\test_ex3_pos.dir
   OBJECT_FILE_DIR = CMakeFiles\test_ex3_pos.dir\tests
-  TARGET_COMPILE_PDB = CMakeFiles\test_ex3_pos.dir\
-  TARGET_PDB = test_ex3_pos.pdb
 
 
 # =============================================================================
@@ -307,10 +271,9 @@ build test_ex3_pos.exe: CXX_EXECUTABLE_LINKER__test_ex3_pos_ CMakeFiles/test_ex3
   OBJECT_DIR = CMakeFiles\test_ex3_pos.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\test_ex3_pos.dir\
   TARGET_FILE = test_ex3_pos.exe
   TARGET_IMPLIB = libtest_ex3_pos.dll.a
-  TARGET_PDB = test_ex3_pos.pdb
+  TARGET_PDB = test_ex3_pos.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target test_ex4_complete
@@ -327,8 +290,6 @@ build CMakeFiles/test_ex4_complete.dir/tests/test_ex4_complete.cpp.obj: CXX_COMP
   INCLUDES = -I"C:/Users/imade/Documents/Professional/IASD/S3/Blockchain & applied security/atelier_1/blockchain-cpp/blockchain/include" -isystem C:/msys64/mingw64/include
   OBJECT_DIR = CMakeFiles\test_ex4_complete.dir
   OBJECT_FILE_DIR = CMakeFiles\test_ex4_complete.dir\tests
-  TARGET_COMPILE_PDB = CMakeFiles\test_ex4_complete.dir\
-  TARGET_PDB = test_ex4_complete.pdb
 
 
 # =============================================================================
@@ -343,10 +304,27 @@ build test_ex4_complete.exe: CXX_EXECUTABLE_LINKER__test_ex4_complete_ CMakeFile
   OBJECT_DIR = CMakeFiles\test_ex4_complete.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\test_ex4_complete.dir\
   TARGET_FILE = test_ex4_complete.exe
   TARGET_IMPLIB = libtest_ex4_complete.dll.a
-  TARGET_PDB = test_ex4_complete.pdb
+  TARGET_PDB = test_ex4_complete.exe.dbg
+
+
+#############################################
+# Utility command for check
+
+build check: phony CMakeFiles/check test_ex1_merkle.exe test_ex2_pow.exe test_ex3_pos.exe test_ex4_complete.exe
+
+
+#############################################
+# Utility command for test
+
+build CMakeFiles/test.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\imade\Documents\Professional\IASD\S3\Blockchain & applied security\atelier_1\blockchain-cpp\blockchain\build" && "C:\Program Files\mingw64\bin\ctest.exe" --force-new-ctest-process "
+  DESC = Running tests...
+  pool = console
+  restat = 1
+
+build test: phony CMakeFiles/test.util
 
 
 #############################################
@@ -370,6 +348,14 @@ build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
   restat = 1
 
 build rebuild_cache: phony CMakeFiles/rebuild_cache.util
+
+
+#############################################
+# Custom command for CMakeFiles\check
+
+build CMakeFiles/check | ${cmake_ninja_workdir}CMakeFiles/check: CUSTOM_COMMAND test_ex1_merkle.exe test_ex2_pow.exe test_ex3_pos.exe test_ex4_complete.exe || libblockchain_lib.a test_ex1_merkle.exe test_ex2_pow.exe test_ex3_pos.exe test_ex4_complete.exe
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\imade\Documents\Professional\IASD\S3\Blockchain & applied security\atelier_1\blockchain-cpp\blockchain\build" && "C:\Program Files\mingw64\bin\ctest.exe" --output-on-failure"
+  DESC = Build the test executables and runs CTest (verbose on failure)
 
 # =============================================================================
 # Target aliases.
@@ -403,14 +389,14 @@ build all: phony libblockchain_lib.a blockchain_project.exe test_ex1_merkle.exe 
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/CMakeCCompiler.cmake.in C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/CMakeCCompilerABI.c C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/CMakeCInformation.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/CMakeCXXCompiler.cmake.in C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/CMakeCompilerIdDetection.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/CMakeDetermineCCompiler.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/CMakeDetermineCXXCompiler.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/CMakeDetermineCompiler.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/CMakeDetermineCompilerSupport.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/CMakeDetermineRCCompiler.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/CMakeDetermineSystem.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/CMakeFindBinUtils.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/CMakeNinjaFindMake.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/CMakeParseImplicitIncludeInfo.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/CMakeParseImplicitLinkInfo.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/CMakeParseLibraryArchitecture.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/CMakeRCCompiler.cmake.in C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/CMakeRCInformation.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/CMakeSystem.cmake.in C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/CMakeTestCompilerCommon.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/CMakeTestRCCompiler.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Compiler/ADSP-DetermineCompiler.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Compiler/ARMCC-DetermineCompiler.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Compiler/ARMClang-DetermineCompiler.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Compiler/AppleClang-DetermineCompiler.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Compiler/Borland-DetermineCompiler.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Compiler/Bruce-C-DetermineCompiler.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Compiler/Clang-DetermineCompiler.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Compiler/Clang-DetermineCompilerInternal.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Compiler/Compaq-C-DetermineCompiler.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Compiler/Cray-DetermineCompiler.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Compiler/CrayClang-DetermineCompiler.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Compiler/Embarcadero-DetermineCompiler.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Compiler/Fujitsu-DetermineCompiler.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Compiler/GHS-DetermineCompiler.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Compiler/GNU-C-DetermineCompiler.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Compiler/GNU-FindBinUtils.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Compiler/GNU.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Compiler/HP-C-DetermineCompiler.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Compiler/HP-CXX-DetermineCompiler.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Compiler/IAR-DetermineCompiler.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Compiler/Intel-DetermineCompiler.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Compiler/LCC-C-DetermineCompiler.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Compiler/MSVC-DetermineCompiler.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Compiler/NVHPC-DetermineCompiler.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Compiler/NVIDIA-DetermineCompiler.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Compiler/OrangeC-DetermineCompiler.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Compiler/PGI-DetermineCompiler.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Compiler/PathScale-DetermineCompiler.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Compiler/SCO-DetermineCompiler.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Compiler/SDCC-C-DetermineCompiler.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Compiler/SunPro-C-DetermineCompiler.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Compiler/TI-DetermineCompiler.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Compiler/TIClang-DetermineCompiler.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Compiler/Tasking-DetermineCompiler.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Compiler/Watcom-DetermineCompiler.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Compiler/XL-C-DetermineCompiler.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Compiler/XL-CXX-DetermineCompiler.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Compiler/XLClang-C-DetermineCompiler.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Compiler/zOS-C-DetermineCompiler.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/FindOpenSSL.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/FindPackageHandleStandardArgs.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/FindPackageMessage.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Internal/CMakeCLinkerInformation.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Internal/CMakeCXXLinkerInformation.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Internal/CMakeCommonLinkerInformation.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Internal/FeatureTesting.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Platform/Linker/GNU.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Platform/Linker/Windows-C.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Platform/Linker/Windows-CXX.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Platform/Linker/Windows-GNU-C.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Platform/Linker/Windows-GNU-CXX.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Platform/Linker/Windows-GNU.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Platform/Windows-Determine-CXX.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Platform/Windows.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Platform/WindowsPaths.cmake C$:/Users/imade/Documents/Professional/IASD/S3/Blockchain$ &$ applied$ security/atelier_1/blockchain-cpp/blockchain/CMakeLists.txt CMakeCache.txt CMakeFiles/3.31.5/CMakeCCompiler.cmake CMakeFiles/3.31.5/CMakeCXXCompiler.cmake CMakeFiles/3.31.5/CMakeRCCompiler.cmake CMakeFiles/3.31.5/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/CMakeCInformation.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/CMakeRCInformation.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Compiler/GNU.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/FindOpenSSL.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/FindPackageHandleStandardArgs.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/FindPackageMessage.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Internal/CMakeCLinkerInformation.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Internal/CMakeCXXLinkerInformation.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Internal/CMakeCommonLinkerInformation.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Platform/Linker/GNU.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Platform/Linker/Windows-C.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Platform/Linker/Windows-CXX.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Platform/Linker/Windows-GNU-C.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Platform/Linker/Windows-GNU-CXX.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Platform/Linker/Windows-GNU.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Platform/Windows.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Platform/WindowsPaths.cmake C$:/Users/imade/Documents/Professional/IASD/S3/Blockchain$ &$ applied$ security/atelier_1/blockchain-cpp/blockchain/CMakeLists.txt CMakeCache.txt CMakeFiles/3.31.5/CMakeCCompiler.cmake CMakeFiles/3.31.5/CMakeCXXCompiler.cmake CMakeFiles/3.31.5/CMakeRCCompiler.cmake CMakeFiles/3.31.5/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/CMakeCCompiler.cmake.in C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/CMakeCCompilerABI.c C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/CMakeCInformation.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/CMakeCXXCompiler.cmake.in C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/CMakeCompilerIdDetection.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/CMakeDetermineCCompiler.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/CMakeDetermineCXXCompiler.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/CMakeDetermineCompiler.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/CMakeDetermineCompilerSupport.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/CMakeDetermineRCCompiler.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/CMakeDetermineSystem.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/CMakeFindBinUtils.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/CMakeNinjaFindMake.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/CMakeParseImplicitIncludeInfo.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/CMakeParseImplicitLinkInfo.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/CMakeParseLibraryArchitecture.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/CMakeRCCompiler.cmake.in C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/CMakeRCInformation.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/CMakeSystem.cmake.in C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/CMakeTestCompilerCommon.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/CMakeTestRCCompiler.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Compiler/ADSP-DetermineCompiler.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Compiler/ARMCC-DetermineCompiler.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Compiler/ARMClang-DetermineCompiler.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Compiler/AppleClang-DetermineCompiler.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Compiler/Borland-DetermineCompiler.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Compiler/Bruce-C-DetermineCompiler.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Compiler/Clang-DetermineCompiler.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Compiler/Clang-DetermineCompilerInternal.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Compiler/Compaq-C-DetermineCompiler.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Compiler/Cray-DetermineCompiler.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Compiler/CrayClang-DetermineCompiler.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Compiler/Embarcadero-DetermineCompiler.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Compiler/Fujitsu-DetermineCompiler.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Compiler/GHS-DetermineCompiler.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Compiler/GNU-C-DetermineCompiler.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Compiler/GNU-FindBinUtils.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Compiler/GNU.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Compiler/HP-C-DetermineCompiler.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Compiler/HP-CXX-DetermineCompiler.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Compiler/IAR-DetermineCompiler.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Compiler/Intel-DetermineCompiler.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Compiler/LCC-C-DetermineCompiler.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Compiler/MSVC-DetermineCompiler.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Compiler/NVHPC-DetermineCompiler.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Compiler/NVIDIA-DetermineCompiler.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Compiler/OrangeC-DetermineCompiler.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Compiler/PGI-DetermineCompiler.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Compiler/PathScale-DetermineCompiler.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Compiler/SCO-DetermineCompiler.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Compiler/SDCC-C-DetermineCompiler.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Compiler/SunPro-C-DetermineCompiler.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Compiler/TI-DetermineCompiler.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Compiler/TIClang-DetermineCompiler.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Compiler/Tasking-DetermineCompiler.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Compiler/Watcom-DetermineCompiler.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Compiler/XL-C-DetermineCompiler.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Compiler/XL-CXX-DetermineCompiler.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Compiler/XLClang-C-DetermineCompiler.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Compiler/zOS-C-DetermineCompiler.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/FindOpenSSL.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/FindPackageHandleStandardArgs.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/FindPackageMessage.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Internal/CMakeCLinkerInformation.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Internal/CMakeCXXLinkerInformation.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Internal/CMakeCommonLinkerInformation.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Internal/FeatureTesting.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Platform/Linker/GNU.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Platform/Linker/Windows-C.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Platform/Linker/Windows-CXX.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Platform/Linker/Windows-GNU-C.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Platform/Linker/Windows-GNU-CXX.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Platform/Linker/Windows-GNU.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Platform/Windows-Determine-CXX.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Platform/Windows.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Platform/WindowsPaths.cmake C$:/Users/imade/Documents/Professional/IASD/S3/Blockchain$ &$ applied$ security/atelier_1/blockchain-cpp/blockchain/CMakeLists.txt CMakeCache.txt CMakeFiles/3.31.5/CMakeCCompiler.cmake CMakeFiles/3.31.5/CMakeCXXCompiler.cmake CMakeFiles/3.31.5/CMakeRCCompiler.cmake CMakeFiles/3.31.5/CMakeSystem.cmake: phony
+build C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/CMakeCInformation.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/CMakeRCInformation.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Compiler/GNU.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/FindOpenSSL.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/FindPackageHandleStandardArgs.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/FindPackageMessage.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Internal/CMakeCLinkerInformation.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Internal/CMakeCXXLinkerInformation.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Internal/CMakeCommonLinkerInformation.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Platform/Linker/GNU.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Platform/Linker/Windows-C.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Platform/Linker/Windows-CXX.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Platform/Linker/Windows-GNU-C.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Platform/Linker/Windows-GNU-CXX.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Platform/Linker/Windows-GNU.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Platform/Windows.cmake C$:/Program$ Files/mingw64/share/cmake-3.31/Modules/Platform/WindowsPaths.cmake C$:/Users/imade/Documents/Professional/IASD/S3/Blockchain$ &$ applied$ security/atelier_1/blockchain-cpp/blockchain/CMakeLists.txt CMakeCache.txt CMakeFiles/3.31.5/CMakeCCompiler.cmake CMakeFiles/3.31.5/CMakeCXXCompiler.cmake CMakeFiles/3.31.5/CMakeRCCompiler.cmake CMakeFiles/3.31.5/CMakeSystem.cmake: phony
 
 
 #############################################

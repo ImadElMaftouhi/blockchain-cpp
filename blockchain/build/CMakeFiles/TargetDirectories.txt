@@ -4,5 +4,7 @@ C:/Users/imade/Documents/Professional/IASD/S3/Blockchain & applied security/atel
 C:/Users/imade/Documents/Professional/IASD/S3/Blockchain & applied security/atelier_1/blockchain-cpp/blockchain/build/CMakeFiles/test_ex2_pow.dir
 C:/Users/imade/Documents/Professional/IASD/S3/Blockchain & applied security/atelier_1/blockchain-cpp/blockchain/build/CMakeFiles/test_ex3_pos.dir
 C:/Users/imade/Documents/Professional/IASD/S3/Blockchain & applied security/atelier_1/blockchain-cpp/blockchain/build/CMakeFiles/test_ex4_complete.dir
+C:/Users/imade/Documents/Professional/IASD/S3/Blockchain & applied security/atelier_1/blockchain-cpp/blockchain/build/CMakeFiles/check.dir
+C:/Users/imade/Documents/Professional/IASD/S3/Blockchain & applied security/atelier_1/blockchain-cpp/blockchain/build/CMakeFiles/test.dir
 C:/Users/imade/Documents/Professional/IASD/S3/Blockchain & applied security/atelier_1/blockchain-cpp/blockchain/build/CMakeFiles/edit_cache.dir
 C:/Users/imade/Documents/Professional/IASD/S3/Blockchain & applied security/atelier_1/blockchain-cpp/blockchain/build/CMakeFiles/rebuild_cache.dir

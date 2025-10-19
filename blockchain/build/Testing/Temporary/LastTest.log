@@ -1,0 +1,148 @@
+Start testing: Oct 20 00:49 Morocco Summer Time
+----------------------------------------------------------
+1/4 Testing: ex_1_merkle_test
+1/4 Test: ex_1_merkle_test
+Command: "C:/Users/imade/Documents/Professional/IASD/S3/Blockchain & applied security/atelier_1/blockchain-cpp/blockchain/build/test_ex1_merkle.exe"
+Directory: C:/Users/imade/Documents/Professional/IASD/S3/Blockchain & applied security/atelier_1/blockchain-cpp/blockchain/build
+"ex_1_merkle_test" start time: Oct 20 00:49 Morocco Summer Time
+Output:
+----------------------------------------------------------
+
+=== Merkle Tree Structure
+Hash: 0b3e0b9ede1c93e6...
+  Hash: a5386aef1fd2bee9...
+    Hash: 31075b75d4e15de7...
+    Hash: fd62e015bdc20575...
+  Hash: 3b9ea75b385d5138...
+    Hash: c4d04300b73de3d2...
+    Hash: c4d04300b73de3d2...
+========================
+
+Merkle Tree Test Passed: Root Hash generated and tree printed.
+Merkle Tree Test Passed: Transaction verification works.
+<end of output>
+Test time =   0.16 sec
+----------------------------------------------------------
+Test Passed.
+"ex_1_merkle_test" end time: Oct 20 00:49 Morocco Summer Time
+"ex_1_merkle_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/4 Testing: ex2_pow_test
+2/4 Test: ex2_pow_test
+Command: "C:/Users/imade/Documents/Professional/IASD/S3/Blockchain & applied security/atelier_1/blockchain-cpp/blockchain/build/test_ex2_pow.exe"
+Directory: C:/Users/imade/Documents/Professional/IASD/S3/Blockchain & applied security/atelier_1/blockchain-cpp/blockchain/build
+"ex2_pow_test" start time: Oct 20 00:49 Morocco Summer Time
+Output:
+----------------------------------------------------------
+Block #1 mined in 0 ms
+Block #2 mined in 0 ms
+
+--- Block #0 (PoW) ---
+Timestamp: Mon Oct 20 00:49:27.590
+Data: Genesis Block
+Previous Hash: 0...
+Hash: 002f469fc7bfe747...
+Nonce: 408
+Difficulty: 2
+
+--- Block #1 (PoW) ---
+Timestamp: Mon Oct 20 00:49:27.592
+Data: 537a5144ffe0c3c073da7a1cdb0f073791f148d6b3e30f684bff3cacb262ba0e
+Previous Hash: 002f469fc7bfe747...
+Hash: 00808fc12b7257fb...
+Nonce: 472
+Difficulty: 2
+
+--- Block #2 (PoW) ---
+Timestamp: Mon Oct 20 00:49:27.592
+Data: 537a5144ffe0c3c073da7a1cdb0f073791f148d6b3e30f684bff3cacb262ba0e
+Previous Hash: 00808fc12b7257fb...
+Hash: 000dc5e6b02164b4...
+Nonce: 250
+Difficulty: 3
+PoW Test Passed: Chain is valid with different difficulties.
+<end of output>
+Test time =   0.18 sec
+----------------------------------------------------------
+Test Passed.
+"ex2_pow_test" end time: Oct 20 00:49 Morocco Summer Time
+"ex2_pow_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/4 Testing: ex3_pos_test
+3/4 Test: ex3_pos_test
+Command: "C:/Users/imade/Documents/Professional/IASD/S3/Blockchain & applied security/atelier_1/blockchain-cpp/blockchain/build/test_ex3_pos.exe"
+Directory: C:/Users/imade/Documents/Professional/IASD/S3/Blockchain & applied security/atelier_1/blockchain-cpp/blockchain/build
+"ex3_pos_test" start time: Oct 20 00:49 Morocco Summer Time
+Output:
+----------------------------------------------------------
+Block #1 validated by V3 in 0 ms
+Block #2 validated by V2 in 0 ms
+
+--- Block #0 (PoS) ---
+Timestamp: Mon Oct 20 00:49:27.685
+Data: Genesis Block
+Validator: V1
+Previous Hash: 0...
+Hash: 32f56c13ed45218f...
+
+--- Block #1 (PoS) ---
+Timestamp: Mon Oct 20 00:49:27.686
+Data: 537a5144ffe0c3c073da7a1cdb0f073791f148d6b3e30f684bff3cacb262ba0e
+Validator: V3
+Previous Hash: 32f56c13ed45218f...
+Hash: 076c1eebadde7af8...
+
+--- Block #2 (PoS) ---
+Timestamp: Mon Oct 20 00:49:27.686
+Data: 537a5144ffe0c3c073da7a1cdb0f073791f148d6b3e30f684bff3cacb262ba0e
+Validator: V2
+Previous Hash: 076c1eebadde7af8...
+Hash: aa47531a3180b1a9...
+PoS Test Passed: Chain is valid.
+Block #1 mined in 0 ms
+Block #2 mined in 0 ms
+Block #3 mined in 0 ms
+Block #3 validated by V3 in 0 ms
+PoW Time: 6157 ms, PoS Time: 37 ms
+PoW vs PoS Test Passed: Times measured.
+<end of output>
+Test time =   0.10 sec
+----------------------------------------------------------
+Test Passed.
+"ex3_pos_test" end time: Oct 20 00:49 Morocco Summer Time
+"ex3_pos_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/4 Testing: ex4_complete_test
+4/4 Test: ex4_complete_test
+Command: "C:/Users/imade/Documents/Professional/IASD/S3/Blockchain & applied security/atelier_1/blockchain-cpp/blockchain/build/test_ex4_complete.exe"
+Directory: C:/Users/imade/Documents/Professional/IASD/S3/Blockchain & applied security/atelier_1/blockchain-cpp/blockchain/build
+"ex4_complete_test" start time: Oct 20 00:49 Morocco Summer Time
+Output:
+----------------------------------------------------------
+Partie 1 Test Passed: Transaction validation works.
+Block #1 mined in 0 ms
+Block #2 mined in 0 ms
+Block #3 mined in 0 ms
+Partie 2 Test Passed: PoW chain is valid with varying difficulties.
+Block #1 validated by V2 in 0 ms
+Block #2 validated by V1 in 0 ms
+Partie 3 Test Passed: PoS chain is valid.
+Block #4 mined in 0 ms
+Block #3 validated by V1 in 0 ms
+Partie 4 Test Passed: PoW Time: 3800 ms, PoS Time: 29 ms
+Rapidity: PoS is faster
+Resource Consumption: PoW uses more CPU due to mining
+Ease of Implementation: PoS is simpler
+Exercise 4 Complete Test Passed.
+<end of output>
+Test time =   0.09 sec
+----------------------------------------------------------
+Test Passed.
+"ex4_complete_test" end time: Oct 20 00:49 Morocco Summer Time
+"ex4_complete_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Oct 20 00:49 Morocco Summer Time
